@@ -1,4 +1,3 @@
-Github Workflow - YAML Github Workflow (github-workflow.json)
 name: "Vprofile IAC"
 on: 
   push:
