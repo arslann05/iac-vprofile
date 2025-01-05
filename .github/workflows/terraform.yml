@@ -40,7 +40,7 @@ jobs:
         #  terraform_version: 1.6.3
 
       - name: Debug bucket name
-        run: echo "Bucket name: $BUCKET_TF_STATE"
+        run: echo "$BUCKET_TF_STATE"
 
       - name: Terraform init
         id: init
